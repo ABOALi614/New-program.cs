@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace CodeWave.Pro
 {
-    // تعريف الكيان (Entity)
+  
     public class ProjectTask
     {
         public int Id { get; set; }
@@ -49,9 +49,7 @@ namespace CodeWave.Pro
             repo.AddTask("Design Database Schema");
             repo.AddTask("Setup Git Repository");
             repo.AddTask("Develop API Endpoints");
-
-            // عرض القائمة
-            repo.ListTasks();
+       repo.ListTasks();
 
             Console.WriteLine("\nPress any key to exit...");
             Console.ReadKey();
